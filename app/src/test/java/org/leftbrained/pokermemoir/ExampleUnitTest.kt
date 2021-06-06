@@ -1,4 +1,4 @@
-package com.example.pokermemoir
+package org.leftbrained.pokermemoir
 
 import org.junit.Test
 
