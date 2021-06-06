@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Poker Memoir</string>
+    <string name="btn_sessions">Sessions</string>
+    <string name="btn_rooms">Rooms</string>
+    <string name="btn_data">Data</string>
+    <string name="btn_settings">Settings</string>
+</resources>
