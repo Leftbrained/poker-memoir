@@ -15,14 +15,14 @@ class MainActivity : AppCompatActivity() {
 
     fun createSession(view: View) {
         val startSession = true
-        val intent = Intent(this, SessionCreateActivity::class.java).apply {
+        val intent = Intent(this, SessionEditActivity::class.java).apply {
             putExtra(EXTRA_START_SESSION, startSession)
         }
         startActivity(intent)
     }
 
     fun createRoom(view: View) {
-        val intent = Intent(this, RoomCreateActivity::class.java)
+        val intent = Intent(this, RoomEditActivity::class.java)
         startActivity(intent)
     }
 }
