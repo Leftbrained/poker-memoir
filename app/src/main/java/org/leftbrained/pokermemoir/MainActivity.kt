@@ -20,4 +20,9 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+    fun createRoom(view: View) {
+        val intent = Intent(this, RoomCreateActivity::class.java)
+        startActivity(intent)
+    }
 }
